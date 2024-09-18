@@ -15,9 +15,9 @@ body{
 }
 .image-row {
     display: flex;
-    justify-content: center; /* Centers all images horizontally */
-    align-items: center; /* Aligns all images vertically */
-    gap: 20px; /* Adds space between images */
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
 }
 #head{
     font-size:70px;
