@@ -1,5 +1,5 @@
 :root{
-    --background-color: rgb(255, 255, 255) ;
+    --background-color: rgb(198, 198, 198) ;
     --light-color:rgb(170, 202, 209);
     --dark-color:rgb(17, 19, 20);
     --link-color:rgb(74, 85, 87);
@@ -13,7 +13,12 @@ body{
     font-size: 16px;
 
 }
-
+.image-row {
+    display: flex;
+    justify-content: center; /* Centers all images horizontally */
+    align-items: center; /* Aligns all images vertically */
+    gap: 20px; /* Adds space between images */
+}
 #head{
     font-size:70px;
     text-align: center;
