@@ -1,5 +1,5 @@
 :root{
-    --background-color: rgb(198, 198, 198) ;
+    --background-color: rgb(239, 193, 141) ;
     --light-color:rgb(170, 202, 209);
     --dark-color:rgb(17, 19, 20);
     --link-color:rgb(74, 85, 87);
@@ -22,11 +22,28 @@ body{
 #head{
     font-size:70px;
     text-align: center;
+    
 }
 
 #post{
     text-align: center;
+    color: rgb(0, 0, 0);
+
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
 }
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  
 
 .subhead{
     font-family: Georgia, 'Times New Roman', Times, serif;
