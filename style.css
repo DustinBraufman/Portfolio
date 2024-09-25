@@ -1,5 +1,5 @@
 :root{
-    --background-color: rgb(105, 162, 99) ;
+    --background-color: rgb(244, 207, 165) ;
     --light-color:rgb(170, 202, 209);
     --dark-color:rgb(17, 19, 20);
     --link-color:rgb(74, 85, 87);
@@ -9,7 +9,6 @@ body{
     font-optical-sizing: auto;
     font-style: normal;
     background-color: var(--background-color);
-    margin: 0 1em;
     font-size: 16px;
 
 }
@@ -22,6 +21,7 @@ body{
 #head{
     font-size:70px;
     text-align: center;
+    padding-bottom: 0%;
     
 }
 
@@ -45,15 +45,22 @@ body{
   }
   
 
+
+
 .subhead{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    padding:0px;
+    
 }
 
 sub{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-size: large;
+    display: flex;
+    position:relative;
     margin-left: 35%;
+    margin-top: 0%;
 }
 
