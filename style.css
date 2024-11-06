@@ -18,6 +18,13 @@ body{
     align-items: center; 
     gap: 20px; 
 }
+
+.imagerow{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
 #head{
     font-size:70px;
     text-align: center;
