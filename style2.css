@@ -5,7 +5,7 @@
 }
 
 body, html {
-  font-family: Arial, sans-serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   height: 100vh;
   width: 100vw;
   background-color: #f4f4f4;
@@ -21,7 +21,7 @@ body, html {
 .sidebar {
   width: 20%; /* Adjust width as needed */
   background-color: #ffcccc;
-  color: #333;
+  color: #2d2c2c;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -93,7 +93,24 @@ body, html {
 
 .blurb {
   width: 100%;
-  font-size: 16px;
+  font-size: 20px;
   text-align: left;
   padding: 10px;
+  font-family: "stevie-sans", sans-serif;
+font-weight: 400;
+font-style: normal;
 }
+
+#head{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 70px;
+  color: #2d2c2c;
+}
+
+.subhead{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  text-align: center;
+  padding-bottom: 40px;
+  font-size: x-large;
+  
+}
+
