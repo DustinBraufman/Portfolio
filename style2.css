@@ -20,7 +20,7 @@ body, html {
 
 .sidebar {
   width: 20%; /* Adjust width as needed */
-  background-color: #ffcccc;
+  background-color: rgb(255, 204, 204);
   color: #2d2c2c;
   padding: 20px;
   display: flex;
@@ -116,16 +116,28 @@ font-style: normal;
 
 .blurb2 {
   width: 100%;
-  font-size: 20px;
-  text-align: left;
+  font-size: 17px;
+  /* text-align: left; */
   padding: 10px;
   font-family: "stevie-sans", sans-serif;
-  font-weight: 400;
+  /* font-weight: 800; */
   font-style: normal;
-
+text-decoration:double;
   /* Centering styles for this instance */
   display: flex;
   align-items: center; /* vertical centering */
   justify-content: center; /* horizontal centering, optional */
   height: 100vh; /* full viewport height to center vertically */
+  color: #000000;
+}
+
+.blurb2 a {
+  text-decoration: none;
+  color:#2d2c2c;
+
+  font-weight: 600;
+}
+
+.blurb2 a:visited {
+  color: inherit; /* Ensures visited links don't change color */
 }
